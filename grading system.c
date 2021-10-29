@@ -1,4 +1,3 @@
-//
 #include <stdio.h>
 
 int main()
@@ -14,26 +13,27 @@ int main()
 		Sum=(English+Maths+Science+Kiswahili+Computer);
 		Average=(Sum/5);
         printf("Average is %d\n",Average);
-		if(Average>=90&&Average<=100)
+		if(Average>=70&&Average<=100)
 		{
 			printf("Grade A");
 		}
-		else if(Average>=80&&Average<90)
+		else if(Average>=60&&Average<69)
 		{
 			printf("Grade B");
 		}
-		else if(Average>=70&&Average<80)
+		else if(Average>=50&&Average<59)
 		{
 			printf("Grade C");
 		}
-		else if (Average>=80&&Average<70)
+		else if (Average>=40&&Average<49)
 		{
 			printf("Grade D");
 		}
-		else if (Average>=70&&Average<60)
+		else if (Average>=0&&Average<39)
 		{
-			printf("Grade E");
+			printf("Fail");
 		}
 	}
 }
     
+  
